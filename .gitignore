@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Build artifacts
+build/
+dist/
+.build-cache/
+*.spec.bak
+
+# Installer/runtime caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated reports/exports during manual testing
+exports/
+reports/
+*.log
